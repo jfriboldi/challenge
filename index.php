@@ -18,6 +18,7 @@ session_start();
                 echo 'Welcome '.$user['first_name'].'   '.$user['last_name'];
             }
             else { 
+                session_destroy();
                 echo '<span>PIN Not Found</span>
                 <h2>Please Enter Your PIN Again</h2>
                 <form action="" method="post">
