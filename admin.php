@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$db = new PDO('mysql:host=localhost;dbname=challenge;charset=utf8mb4', 'jorge', 'challenge_accepted');
+$db = new PDO('mysql:host=u28rhuskh0x5paau.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=k2me450alug8so8n;charset=utf8mb4', 'jf5cvv5ynog9kn1f', 'voi5lhmafo9gj98b');
 
 // Function to generate a Random Pin Number With 4 Numbers
 function generateRdnPin() {
