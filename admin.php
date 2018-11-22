@@ -32,6 +32,7 @@ function generateRdnPin() {
 //echo generateRdnPin();
 
 ?>
+<!DOCTYPE html>
 <html>
     <head>
         
@@ -71,6 +72,7 @@ function generateRdnPin() {
                 }
             ?>
         </table>
+        <a href="logout.php">Log Out</a>
         <h2>Insert new User</h2>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="inputs"><span>First Name</span><input type="text" name="first_name" id="first_name"><br></div>
