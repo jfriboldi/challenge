@@ -34,7 +34,7 @@ session_start();
         } else { 
                echo '<div class="box"><h2 class="title">Please Enter Your Pin</h2>
                <form action="'.htmlspecialchars($_SERVER["PHP_SELF"]).'" method="post">
-                   <input type="password" name="pin" id="pin">
+                   <input type="password" name="pin" id="pin" maxlength="4">
                    <input type="submit" value="Submit">
                </form></div>';
             }
