@@ -12,7 +12,7 @@ session_start();
         <?php 
         if (isset($_POST['pin'])) {
             $pin = $_POST['pin'];
-            $db = new PDO('mysql:host=localhost;dbname=challenge;charset=utf8mb4', 'jorge', 'challenge_accepted');
+            $db = new PDO('mysql:host=u28rhuskh0x5paau.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=k2me450alug8so8n;charset=utf8mb4', 'jf5cvv5ynog9kn1f', 'voi5lhmafo9gj98b');
             $stmt = $db->prepare("SELECT * FROM users WHERE identification_token=?");
             $stmt->execute([$pin]);
             $user = $stmt->fetch();
